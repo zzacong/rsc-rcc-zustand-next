@@ -1,5 +1,5 @@
-import { createStore, create, useStore } from 'zustand'
-import { Pokemon } from '~/types'
+import type { Pokemon } from '~/types'
+import { createStore, create } from 'zustand'
 
 interface PokeProps {
   pokemon: Pokemon[]

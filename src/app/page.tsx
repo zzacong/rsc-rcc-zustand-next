@@ -1,6 +1,5 @@
-import { type Pokemon } from '~/types'
+import type { Pokemon } from '~/types'
 import { store } from '~/store'
-import PokemonTable from './PokemonTable'
 import PokemonTableSSR from './PokemonTableSSR'
 import PokemonTableCSR from './PokemonTableCSR'
 import Loader from './Loader'

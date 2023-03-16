@@ -1,8 +1,8 @@
 'use client'
 
+import type { Pokemon } from '~/types'
 import { useRef } from 'react'
 import { store } from '~/store'
-import { Pokemon } from '~/types'
 
 export default function Loader({ pokemons }: { pokemons: Pokemon[] }) {
   const loaded = useRef(false)
